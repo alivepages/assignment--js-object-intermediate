@@ -27,6 +27,7 @@ let dog = {
 
 dog.getDogAgeInHumanYears = function(){
   // Your code here
+  return this.age * 7
 }
 
 

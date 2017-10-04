@@ -12,7 +12,13 @@
 
 
 
-
+function getKeys(object) {
+	var properties = []
+	for (propertie in object) {
+		properties.push(propertie);
+	}
+	return properties;
+}
 
 
 
